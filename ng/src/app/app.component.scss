@@ -1,0 +1,18 @@
+div {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 50px ;
+    background-color: rgb(195, 196, 196);
+    justify-self: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+:host::ng-deep .mat-spinner {
+    display: inline-block;
+    margin-right: 15 px;
+    position: relative;
+    top: 15px;
+}

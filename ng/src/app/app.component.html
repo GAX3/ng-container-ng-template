@@ -1,0 +1,10 @@
+<ng-container *ngIf="usuarios.length > 0; else cargando">
+  <div class="divUser" *ngFor="let usuario of usuarios"> <p>{{ usuario.name}} </p></div>
+</ng-container>
+
+<ng-template #cargando>
+    <mat-spinner color="primary" diameter="20"></mat-spinner>
+    Cargando...
+</ng-template>
+
+
